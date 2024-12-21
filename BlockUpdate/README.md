@@ -18,11 +18,11 @@
 
 本篇全篇基于[CC-BY-4.0协议](https://creativecommons.org/licenses/by/4.0/legalcode.zh-hans)开源。Copyright © 2024 tanh_Heng. All Rights Reserved.
 
-Email: tanh_heng@outlook.com
+Email: <fannbryan@gmail.com>,<tanh_heng@outlook.com>
 
-- 作者 / tanh_Heng
-- 协作 / BFladderbean
-- 鸣谢 / Graduate texts in technical MC
+- 作者 / BFladderbean, tanh_Heng
+- 协作 / void, Petris, XJH_Jorhai
+- 鸣谢 / Graduate texts in technical MC, Fallen_Breath, 五羊飞kaniol
 
 ## 目录
 

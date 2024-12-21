@@ -4,7 +4,7 @@
 
 本篇文档旨在由表及里地解析Minecraft中对大部分玩家相当棘手的刻内时序。本文档将分为面向普通玩家的简要表述和面向进阶玩家的源码分析两部分。
 
-这不仅是一篇面向新手的更新理论入门教程，同样也是一篇面向进阶玩家的便于查阅的文档。
+这不仅是一篇面向新手的刻内时序入门教程，同样也是一篇面向进阶玩家的便于查阅的文档。
 
 ## 解释说明
 
@@ -18,11 +18,11 @@
 
 本篇全篇基于[CC-BY-4.0协议](https://creativecommons.org/licenses/by/4.0/legalcode.zh-hans)开源。Copyright © 2024 tanh_Heng. All Rights Reserved.
 
-Email: <fannbryan@gmail.com>
+Email: <fannbryan@gmail.com>,<tanh_heng@outlook.com>
 
-- 作者 / BFladderbean
-- 协作 / tanh_Heng
-- 鸣谢 / Graduate texts in technical MC
+- 作者 / BFladderbean, tanh_Heng
+- 协作 / void, Petris, XJH_Jorhai
+- 鸣谢 / Graduate texts in technical MC, Fallen_Breath, 五羊飞kaniol
 
 ## 目录
 
