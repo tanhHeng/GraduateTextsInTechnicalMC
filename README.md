@@ -1,8 +1,8 @@
-# GraduateTextsInTechnicalMC(GTMC)
+# GraduateTextsInTechnicalMC
 
-## 目录
-- [01](./BlockUpdate/README.md) 更新理论深入浅出
-- [02](./MicroTiming/README.md) 时序理论
+这是一本面向萌新的技术红石入门教材，也是一本面向熟练者的文档。
+
+这里有通俗易懂的解释和实例，也有更为复杂的代码解读。
 
 ## 声明
 
