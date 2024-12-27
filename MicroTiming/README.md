@@ -1,5 +1,3 @@
-# <center>Minecraft刻内时序详解</center>
-
 # #00 引言
 
 ## 概述

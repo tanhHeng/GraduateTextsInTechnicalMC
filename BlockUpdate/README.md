@@ -1,5 +1,3 @@
-# <center>Minecraft更新理论深入浅出</center>
-
 # #00 引言
 
 ## 概述
