@@ -7,9 +7,11 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- LateX -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">正在从神秘的角落寻找遗失的GTMC...</div>
   <script>
     window.$docsify = {
       name: 'GTMC', // 侧边导航栏上边的名字
@@ -18,11 +20,25 @@
       loadSidebar: true, // 默认加载 _sidebar.md，作为侧边栏
       subMaxLevel: 3, // 生成目录的最大层级
       coverpage: true,
+      topMargin: 90, // 滚动到锚点是与顶部的距离
+      auto2top: true, // 切换页面后跳回页面顶部
       search: {
         paths: 'auto',
         placeholder: '搜索',
         noData: '找不到结果',
         depth: 3,
+      },
+      count: {
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
+      },
+      pagination: {
+        previousText: '上一篇',
+        nextText: '下一篇',
+        crossChapter: true,
+        crossChapterText: true
       },
     }
   </script>
@@ -30,6 +46,8 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <!-- 一键复制插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <!-- 搜索插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- 代码高亮 -->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
@@ -42,6 +60,16 @@
   <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css">-->
   <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css">-->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css">
+  <!-- 字数插件 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+  <!-- 分页导航 -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <!-- Latex -->
+  <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
+  <!-- CDN files for docsify-katex -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
 
   
 
