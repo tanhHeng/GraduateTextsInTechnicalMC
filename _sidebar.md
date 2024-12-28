@@ -8,6 +8,8 @@
   - [#01 刻与刻间时序](./MicroTiming/01-刻与刻间时序.md)
   - [#02 初窥刻内时序](./MicroTiming/02-初窥刻内时序.md)
   - [#03 计划刻](./MicroTiming/03-计划刻.md)
+  - [#04 方块实体](./MicroTiming/04-方块实体.md)
+  - [#05 方块事件](./MicroTiming/05-方块事件.md)
 - 绿萌
   - [#00 序](./SlimeTech/00-序.md)
   - [#0a 附页](./SlimeTech/0a-附页-最重要的放前头——主流作品的运维方法.md)
