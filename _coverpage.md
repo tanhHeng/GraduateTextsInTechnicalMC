@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-# GTMC
+![GTMC](GTMC-TEXT.svg)
 
 > GraduateTextsInTechnicalMC
 

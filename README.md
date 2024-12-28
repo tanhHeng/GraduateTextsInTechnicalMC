@@ -16,7 +16,7 @@
 
 ## 开源协议与著作权声明
 
-文档全部基于[CC-BY-4.0协议](https://creativecommons.org/licenses/by/4.0/legalcode.zh-hans)开源。Copyright © 2024 tanh_Heng, BFLadderbean. All Rights Reserved.
+文档全部基于[CC BY-NC-SA 4.0协议](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans)开源。Copyright © 2024 tanh_Heng, BFLadderbean. All Rights Reserved.
 
 Email: <tanh_heng@outlook.com>, <fannbryan@gmail.com>
 
