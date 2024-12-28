@@ -41,6 +41,11 @@
         crossChapter: true,
         crossChapterText: true
       },
+      timeUpdater: {
+        text: "<div align='right' style='color:gray'>最后更新: {docsify-updated}</div>",
+        formatUpdated: "{YYYY}.{MM}.{DD}",
+        whereToPlace: "bottom",  // "top" or "bottom", default to "bottom"
+      },
     }
   </script>
   <!-- Docsify v4 -->
@@ -71,6 +76,12 @@
   <!-- CDN files for docsify-katex -->
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
   <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
+  <!-- 延迟加载 -->
+  <script src="//cdn.jsdelivr.net/npm/@sy-records/docsify-loading/lib/index.min.js"></script>
+  <!-- 图片缩放 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 文章更新时间 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script>
 
   
 
