@@ -11,10 +11,6 @@ function docsifyDarkSwitcher() {
 
 
 function applyInitialMode() {
-    if (localStorage.getItem('docsify-dark-mode') === 'true' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        // 默认深色模式
-        // document.querySelector('body').classList.add("docsify-dark-mode");
-    }
 }
 
 document.addEventListener('DOMContentLoaded', applyInitialMode);
