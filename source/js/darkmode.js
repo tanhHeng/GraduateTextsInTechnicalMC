@@ -11,6 +11,9 @@ function docsifyDarkSwitcher() {
 
 
 function applyInitialMode() {
+    if (localStorage.getItem('docsify-dark-mode') === 'true' ) {
+        document.querySelector('body').classList.add("docsify-dark-mode");
+    }
 }
 
 document.addEventListener('DOMContentLoaded', applyInitialMode);
