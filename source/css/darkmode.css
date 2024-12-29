@@ -1,0 +1,35 @@
+:root {
+    --dark-base-background: #222;
+    --dark-base-color: #bbc0c4;
+    --dark-theme-color: var(#42b983);
+    --dark-heading-color: var(--dark-theme-color);
+    --dark-cover-background: #000000a8;
+    --dark-code-color: rgba(213, 213, 213, 0.68);
+    --dark-code-background: rgba(42, 41, 41, 0.47);
+    --dark-tip-background: #2c0000;
+    --dark-warn-background: #005842;
+    --dark-icon-size: 25px;
+    --dark-icon-transition: .1s ease-in-out .1s;
+    --dark-moon-color: #000000;
+    --dark-sun-color: #ffffff;
+}
+
+/*更改切换按钮的位置跟紫薯统计错开*/
+button[onclick="docsifyDarkSwitcher()"] {
+    position: fixed;
+    left: 10px;
+ }
+
+/*更改左下角菜单按钮防止跟深色模式冲突*/
+.docsify-dark-mode .sidebar-toggle span{
+    background-color: #80eddd !important;
+}
+.docsify-dark-mode .sidebar-toggle {
+    background: transparent !important;
+}
+
+/*图片亮度*/
+.docsify-dark-mode .medium-zoom-image{
+    filter: brightness(0.8);
+}
+
