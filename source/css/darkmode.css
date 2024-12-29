@@ -32,3 +32,4 @@ button[onclick="docsifyDarkSwitcher()"] {
 .docsify-dark-mode .medium-zoom-image{
     filter: brightness(0.8);
 }
+
