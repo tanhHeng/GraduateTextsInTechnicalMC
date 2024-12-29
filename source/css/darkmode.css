@@ -1,7 +1,7 @@
 :root {
     --dark-base-background: #222;
     --dark-base-color: #bbc0c4;
-    --dark-theme-color: var(#42b983);
+    --dark-theme-color: #42b983;
     --dark-heading-color: var(--dark-theme-color);
     --dark-cover-background: #000000a8;
     --dark-code-color: rgba(213, 213, 213, 0.68);
@@ -31,5 +31,21 @@ button[onclick="docsifyDarkSwitcher()"] {
 /*图片亮度*/
 .docsify-dark-mode .medium-zoom-image{
     filter: brightness(0.8);
+}
+
+/*搜索栏适配夜间模式*/
+.docsify-dark-mode .search a {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.docsify-dark-mode .search a:hover{
+    color: #ffffff !important;
+    .search-keyword {
+        color: rgba(99, 246, 111, 0.78);
+    }
+}
+
+.docsify-dark-mode .search .search-keyword {
+   color: rgba(70, 185, 66, 0.55);
 }
 
