@@ -3,6 +3,7 @@
   - [#00 引言](./BlockUpdate/README.md)
   - [#01 更新概念与不同类型的更新](./BlockUpdate/01-更新概念与不同类型的更新.md)
   - [#02 连续的方块更新及其分析方法](./BlockUpdate/02-连续的方块更新及其分析方法.md)
+  - [#03 特殊的更新行为](./BlockUpdate/03-特殊的更新行为.md)
 - 时序理论
   - [#00 引言](./MicroTiming/README.md)
   - [#01 刻与刻间时序](./MicroTiming/01-刻与刻间时序.md)
