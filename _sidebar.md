@@ -8,7 +8,7 @@
   - [#00 引言](./MicroTiming/README.md)
   - [#01 刻与刻间时序](./MicroTiming/01-刻与刻间时序.md)
   - [#02 初窥刻内时序](./MicroTiming/02-初窥刻内时序.md)
-  - [#03 计划刻](./MicroTiming/03-计划刻.md)
+  - [#03 计划刻与计划刻元件](./MicroTiming/03-计划刻与计划刻元件.md)
   - [#04 方块实体](./MicroTiming/04-方块实体.md)
   - [#05 方块事件](./MicroTiming/05-方块事件.md)
 - 绿萌
