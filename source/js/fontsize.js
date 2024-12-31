@@ -18,14 +18,18 @@ function applyInitialStyles() {
     if (savedSize) {
         const markdownSection = document.querySelector('.markdown-section#main');
         markdownSection.style.setProperty('--font-size', `${savedSize}px`);
-        updateFontSizeDisplay(savedSize);
     }
 }
 
 function updateFontSizeDisplay(fontSize) {
     const fontSizeDisplay = document.querySelector('.font-size-display');
+    const lang = document.documentElement.lang;
     if (fontSizeDisplay) {
-        fontSizeDisplay.textContent = `当前字体大小: ${fontSize}px`;
+        if (lang === 'zh') {
+            fontSizeDisplay.textContent = `当前字体大小: ${fontSize}px`;
+        } else {
+            fontSizeDisplay.textContent = `Font size: ${fontSize}px`;
+        }
     }
 }
 
@@ -129,6 +133,13 @@ button.font-size-button[onclick="adjustFontSize('decrease')"] {
     color: #333;
 }
 
+@media (max-width: 768px) {
+    .font-size-display {
+        top: 40px;
+        left:10px;
+    }
+}
+
 .docsify-dark-mode .font-size-display{
     color: var(--dark-base-color);
 }
@@ -137,12 +148,14 @@ button.font-size-button[onclick="adjustFontSize('decrease')"] {
 styleInject(css);
 
 function install(hook, vm) {
-    const savedSize = localStorage.getItem('font-size');
     hook.afterEach(function (html) {
+        const savedSize = localStorage.getItem('font-size') || 15;
+        const lang = document.documentElement.lang;
+        const fontSizeText = lang === 'zh' ? `当前字体大小: ${savedSize}px` : `Font size: ${savedSize}px`;
         var fontSizeButtons = `
             <button onclick="adjustFontSize('increase')" class="font-size-button" aria-label="Increase font size" title="Increase font size">A+</button>
             <button onclick="adjustFontSize('decrease')" class="font-size-button" aria-label="Decrease font size" title="Decrease font size">A-</button>
-            <div class="font-size-display">当前字体大小: ${savedSize}px</div>
+            <div class="font-size-display">${fontSizeText}</div>
         `;
         return fontSizeButtons + html;
     });
