@@ -16,4 +16,5 @@
   - [#0a 附页](SlimeTech/Molforte/0a-附页-最重要的放前头——主流作品的运维方法.md)
   - [#01 预备篇](SlimeTech/Molforte/01-预备篇——学习绿萌需要的环境.md)
 - 绿萌教程(苏阳版)
-  - [#00 引言](SlimeTech/Twisuki/README.md)
+  - [#00 序](SlimeTech/Twisuki/序.md)
+  - [#01 总纲](SlimeTech/Twisuki/总纲.md)
