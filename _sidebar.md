@@ -18,3 +18,5 @@
 - 绿萌教程(苏阳版)
   - [#00 序](SlimeTech/Twisuki/序.md)
   - [#01 总纲](SlimeTech/Twisuki/总纲.md)
+  - [#10 概论](SlimeTech/Twisuki/1/10.md)
+  - [#11 前置与准备](SlimeTech/Twisuki/1/11.md)
