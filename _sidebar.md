@@ -22,5 +22,6 @@
   - [#11 前置与准备](SlimeTech/Twisuki/1/11.md)
 - masamod教程
   - [#00 序](./Masamod/README.md)
-  - [#01 投影](./Masamod/投影.md)
+  - [#01 Masa Gadget](./Masamod/01-MasaGadget.md)
+  - [#02 Litematica](./Masamod/02-litematica)
   
