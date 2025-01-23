@@ -25,4 +25,5 @@
   - [#00 序](./Masamod/README.md)
   - [#01 Masa Gadget](./Masamod/01-MasaGadget.md)
   - [#02 Litematica](./Masamod/02-litematica)
-  
+- 加载票机制
+  - [#00 导论](./LoadingTicket/00-导论.md)
