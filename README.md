@@ -16,12 +16,12 @@
 
 ## 开源协议与著作权声明
 
-文档全部基于[CC BY-NC-SA 4.0协议](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans)开源。Copyright © 2024 tanh_Heng, BFLadderbean. All Rights Reserved.
+文档全部基于[CC BY-NC-SA 4.0协议](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans)开源。Copyright © 2024 ABxl_lly, BFladderbean, Molforte, Ryan100c, tanh_Heng, Twisuki, xhbsh. All Rights Reserved.
 
 Email: <tanh_heng@outlook.com>, <fannbryan@gmail.com>
 
-- 作者 / BFladderbean, tanh_Heng
-- 协作 / void, Petris, XJH_Jorhai
+- 作者 / ABxl_lly, BFladderbean, Molforte, Ryan100c, tanh_Heng, Twisuki, xhbsh
+- 协作 / Petris, void, XJH_Jorhai
 - 鸣谢 / Graduate texts in technical MC, Fallen_Breath, 五羊飞kaniol
 
 ## EULA声明
