@@ -21,7 +21,7 @@
   - [#10 概论](SlimeTech/Twisuki/1/10.md)
   - [#11 前置与准备](SlimeTech/Twisuki/1/11.md)
   - [#12 元件入门](SlimeTech/Twisuki/1/12.md)
-  - [#13 飞行器入门]()
+  - [#13 飞行器入门](SlimeTech/Twisuki/1/13.md)
   - [#20 引擎]()
   - [#21 能动]()
   - [#22 半动机与拓展]()
