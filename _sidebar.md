@@ -23,7 +23,7 @@
   - [#12 元件入门](SlimeTech/Twisuki/1/12.md)
   - [#13 飞行器入门](SlimeTech/Twisuki/1/13.md)
   - [#20 引擎](SlimeTech/Twisuki/2/20.md)
-  - [#21 能动](SlimeTech/Twisuki/404.md)
+  - [#21 能动](SlimeTech/Twisuki/2/21.md)
   - [#22 半动机与拓展](SlimeTech/Twisuki/404.md)
   - [#23 计次](SlimeTech/Twisuki/404.md)
   - [#30 组织](SlimeTech/Twisuki/404.md)
