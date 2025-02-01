@@ -51,3 +51,7 @@
   - [#04 加载票扩散](./LoadingTicket/04-加载票的扩散.md)
   - [#05 关于加载边界外](./LoadingTicket/05-关于加载边界外.md)
   - [#0a 附页-辅助mod](./LoadingTicket/0a-附页-辅助mod.md)
+- 实体运动
+  - [#00 序](./EntityMove/00-序.md)
+- 实体AI
+  - [#00 序](./EntityAI/00-序.md)
