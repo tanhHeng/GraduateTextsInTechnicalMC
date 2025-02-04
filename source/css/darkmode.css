@@ -49,3 +49,10 @@ button[onclick="docsifyDarkSwitcher()"] {
    color: rgba(70, 185, 66, 0.55);
 }
 
+.docsify-dark-mode #easter-egg-overlay img{
+    filter: brightness(0.7);
+}
+
+.docsify-dark-mode .easter-egg-toggle {
+    opacity: 0.01;
+}
