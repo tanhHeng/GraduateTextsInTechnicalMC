@@ -53,7 +53,7 @@ var easterEggCss = `
     position: absolute;
     left: 300px;
     top: 20px;
-    opacity: 0.05;
+    opacity: 0.04;
     border: none;
     background: transparent;
     cursor: pointer;
@@ -63,7 +63,7 @@ var easterEggCss = `
 }
 
 .easter-egg-toggle:hover {
-    opacity: 0.2;
+    opacity: 0.15;
 }
 
 `;

@@ -56,3 +56,7 @@ button[onclick="docsifyDarkSwitcher()"] {
 .docsify-dark-mode .easter-egg-toggle {
     opacity: 0.01;
 }
+
+.docsify-dark-mode .easter-egg-toggle:hover {
+    opacity: 0.1;
+}
