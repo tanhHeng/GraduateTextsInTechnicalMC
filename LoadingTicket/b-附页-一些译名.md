@@ -4,8 +4,8 @@
 
 |                          全称                          | 译名          |
 | :-----------------------------------------------------: | ------------- |
-| **Lazy Processing Chunk/Lazy Load/Block Ticking** | 弱加载/方块刻 |
-|    **Entity Processing Chunk/Entity Ticking**    | 强加载/实体刻 |
+| **Lazy Processing Chunk/Lazy Load/Block Ticking** | 弱加载 |
+|    **Entity Processing Chunk/Entity Ticking**    | 强加载 |
 |       **Loading Border Chunk/Border Load**       | 加载边界      |
 |                 **Inaccessible**                 | 不可访问      |
 |          **RenderDistance/ViewDistance**          | 渲染距离      |
