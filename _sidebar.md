@@ -87,12 +87,10 @@
 
 - 加载票机制
   - [#00 序](./LoadingTicket/00-序.md)
-  - [#01 加载票系统](./LoadingTicket/01-加载票系统.md)
-  - [#02 加载等级](./LoadingTicket/02-加载等级.md)
-  - [#03 加载类型](./LoadingTicket/03-加载类型.md)
-  - [#04 加载票扩散](./LoadingTicket/04-加载票的扩散.md)
-  - [#05 关于加载边界外](./LoadingTicket/05-关于加载边界外.md)
-  - [#0a 附页-辅助mod](./LoadingTicket/0a-附页-辅助mod.md)
+  - [#01 加载票系统中的类型](./LoadingTicket/01-加载票系统中的类型.md)
+  - [#02 加载票系统的运作细节](./LoadingTicket/02-加载票系统的运作细节.md)
+  - [#a 附页-辅助mod](./LoadingTicket/a-附页-辅助mod.md)
+  - [#b 附页-一些译名](./LoadingTicket/b-附页-一些译名.md)
 
 ---
 
