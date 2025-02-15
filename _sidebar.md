@@ -25,7 +25,7 @@
   - [#20 引擎](SlimeTech/Twisuki/2/20.md)
   - [#21 能动](SlimeTech/Twisuki/2/21.md)
   - [#22 半动机与拓展](SlimeTech/Twisuki/2/22.md)
-  - [#23 计次](SlimeTech/Twisuki/404.md)
+  - [#23 计次](SlimeTech/Twisuki/2/23.md)
   - [#30 组织](SlimeTech/Twisuki/404.md)
   - [#31 连杆](SlimeTech/Twisuki/404.md)
   - [#32 驳回与停靠](SlimeTech/Twisuki/404.md)
