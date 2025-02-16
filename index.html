@@ -12,6 +12,21 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
   <link rel="stylesheet" href="source/css/darkmode.css">
 </head>
+<style>
+  hidden {
+    background-color: #000;
+    transition: all 200ms;
+    border-radius: 5px;
+  }
+  
+  .docsify-dark-mode hidden {
+    background-color: var(--dark-base-color);
+  }
+
+  hidden:hover {
+    background-color: transparent;
+  }
+</style>
 <body>
   <div id="app">正在从神秘的角落寻找遗失的GTMC...</div>
   <script>
