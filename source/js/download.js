@@ -1,5 +1,5 @@
 function createDownloadButton(text, path) {
-    const baseUrl = 'https://github.com/tanhHeng/GraduateTextsInTechnicalMC/raw/main/';
+    const baseUrl = 'https://github.tbedu.top/https://github.com/tanhHeng/GraduateTextsInTechnicalMC/raw/main/';
 
     const encodedPath = path
         .trim()
