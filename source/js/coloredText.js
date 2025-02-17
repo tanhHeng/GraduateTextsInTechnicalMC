@@ -12,7 +12,7 @@
           return match; // Return the original string if the color is invalid
         }
 
-        return `<span style="color: #${hexColor};">${text}</span>`;
+        return `<span style="color: #${hexColor} !important;">${text}</span>`;
       });
 
       next(newHtml);
