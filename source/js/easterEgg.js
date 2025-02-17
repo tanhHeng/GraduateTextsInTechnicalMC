@@ -25,7 +25,7 @@ function easterEggSwitcher() {
     img.style.borderRadius = '8px';
 
     var text = document.createElement('p');
-    text.textContent = '🚁🚁🚁🚁🚁🚁🚁🚁🚁🚁🚁🚁尊贵的马桶塞子正在注视着你🚁🚁🚁🚁🚁🚁🚁🚁🚁🚁🚁🚁';
+    text.textContent = '🚁🚁🚁尊贵的马桶塞子正在注视着你🚁🚁🚁';
     text.style.color = 'rgba(99, 246, 111, 0.78)';
     text.style.fontSize = '20px';
     text.style.fontWeight = 'bold';
@@ -66,6 +66,12 @@ var easterEggCss = `
     opacity: 0.15;
 }
 
+@media (max-width: 768px) {
+    .easter-egg-toggle {
+        top: 20px;
+        left:150px;
+    }
+}
 `;
 
 styleInject(easterEggCss);

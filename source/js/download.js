@@ -136,6 +136,18 @@ div.download-modal svg{
 div.download-modal {
     font-size: 25px;
 }
+
+@media (max-width: 768px) {
+div.download-modal svg{
+    width: 25px;
+    height: 25px;
+}
+
+div.download-modal {
+    font-size: 15px;
+}
+}
+
 `;
 styleInject(css);
 
