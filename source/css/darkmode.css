@@ -49,6 +49,7 @@ button[onclick="docsifyDarkSwitcher()"] {
    color: rgba(70, 185, 66, 0.55);
 }
 
+/*彩蛋*/
 .docsify-dark-mode #easter-egg-overlay img{
     filter: brightness(0.7);
 }
@@ -59,4 +60,21 @@ button[onclick="docsifyDarkSwitcher()"] {
 
 .docsify-dark-mode .easter-egg-toggle:hover {
     opacity: 0.1;
+}
+
+/*下载按钮*/
+.docsify-dark-mode .download-button{
+    background-color: rgba(0, 0, 0, 0.06);
+    border-color: rgba(4, 4, 4, 0.18);
+    box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.02);
+}
+
+.docsify-dark-mode .download-button:hover {
+    background-color: rgba(0, 0, 0, 0.16);
+    border-color: rgba(4, 4, 4, 0.18);
+    transform: scale(1.05);
+}
+
+.docsify-dark-mode .download-modal {
+    background-color: rgba(62, 62, 62, 0.89);
 }
