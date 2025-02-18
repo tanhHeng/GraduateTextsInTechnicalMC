@@ -18,6 +18,8 @@
 
 文章中留有习题供读者自行联系，答案以 <hidden>这是答案，遮罩只有网页访问可用</hidden> 遮罩，鼠标悬浮在遮罩块上方即可显示。
 
+文章中部分内容会被写作#00aaff{awa}或#color:green{qwq}，在网页端上大括号内内容会被着色标注。
+
 ## 开源协议与著作权声明
 
 文档全部基于[CC BY-NC-SA 4.0协议](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans)开源。Copyright © 2024 ABxl_lly, BFladderbean, Molforte, Ryan100c, tanh_Heng, Twisuki, xhbsh, yuhan2680. All Rights Reserved.
