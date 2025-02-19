@@ -15,7 +15,7 @@
 
 ## 相关网站
 - [GraduateTextsInTechnicalMC](https://techmc.wiki/#/)
-- [投影蓝图在线生成器 - Reden](https://redenmc.com/zh_cn/litematica/old)
+- [投影蓝图在线生成器 - Reden](https://redenmc.com/zh_cn/litematica)
 ***
 # 适用范围
 
