@@ -2,11 +2,14 @@
   function install(hook, vm) {
     hook.afterEach(function(html, next) {
       // Regular expression to find #color:colorname{text} or #RRGGBB{text}
-      const colorRegex = /(?<colorSpecifier>(?:#color:[a-z]+)|(?:#[0-9a-fA-F]{6}))\{(?<text>.+?)(?<!\\)}/g;
+      const colorRegex = /(?<escape>\\?)(?<colorSpecifier>(?:#color:[a-z]+)|(?<escape>\\?)(?:#[0-9a-fA-F]{6}))\{(?<text>.+?)(?<!\\)}/g;
 
       // Replace matches with colored spans
-      const newHtml = html.replace(colorRegex, (match, colorSpecifier, text) => {
+      const newHtml = html.replace(colorRegex, (match, escape, colorSpecifier, text) => {
         let colorValue;
+        if(escape == "\\"){
+          return match;
+        }
 
         if (colorSpecifier.startsWith('#color:')) {
           // It's a color name. Extract the name after '#color:'
