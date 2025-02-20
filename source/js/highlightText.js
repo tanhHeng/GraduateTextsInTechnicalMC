@@ -5,29 +5,27 @@
       const escapeRegex = /\\==/g;
       const highlightRegex = /==(?<text>[^=]+)==/g;
       const codeBlockRegex = /<pre><code[^>]*>[\s\S]*?<\/code><\/pre>/g;
-
       // 首先移除代码块，避免代码块的内容被替换
       let codeBlocks = [];
-      let escapeBlocks = [];
       let replacedHtml = html.replace(codeBlockRegex, (match) => {
         codeBlocks.push(match);
         return `CODE_BLOCK_${codeBlocks.length - 1}_END`; // 替换为占位符
       });
+      // 移除\==，替换为占位符
       replacedHtml = html.replace(escapeRegex,(match)=>{
-        escapeBlocks.push(match);
-        return `ESCAPE_BLOCK_${escapeBlocks.length-1}_END`;
+        return `ESCAPE_BLOCK`;
       });
-
+      // 高亮逻辑
       const newHtml = replacedHtml.replace(highlightRegex, (match, text) => {
         return `<mark>${text}</mark>`; // 进行高亮
       });
-
       // 恢复代码块
       let finalHtml = newHtml.replace(/CODE_BLOCK_(\d+)_END/g, (match, index) => {
         return codeBlocks[parseInt(index)];
       });
-      finalHtml = newHtml.replace(/ESCAPE_BLOCK_(\d+)_END/g,(match,index)=>{
-        return escapeBlocks[parseInt(index)];
+      // 恢复转义==
+      finalHtml = newHtml.replace(/ESCAPE_BLOCK/g,(match,index)=>{
+        return `==`;
       });
       next(finalHtml);
     });
