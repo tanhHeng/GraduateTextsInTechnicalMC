@@ -12,7 +12,7 @@
         return `CODE_BLOCK_${codeBlocks.length - 1}_END`; // 替换为占位符
       });
       // 移除\==，替换为占位符
-      replacedHtml = html.replace(escapeRegex,(match)=>{
+      replacedHtml = replacedhtml.replace(escapeRegex,(match)=>{
         return `ESCAPE_BLOCK`;
       });
       // 高亮逻辑
