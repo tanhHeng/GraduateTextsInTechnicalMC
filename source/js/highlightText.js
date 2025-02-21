@@ -1,35 +1,45 @@
-(function() {
-  function install(hook, vm) {
-    hook.beforeEach(function(html, next) {
+// This plugin implements a custom syntax for highlighting text in markdowns: ==highlighted text==,
+// which will be rendered as <mark>highlighted text</mark>.
+(function () {
+  function install(hook, _vm) {
+    hook.beforeEach(function (html, next) {
       // 修改正则表达式，使用具名捕获组
-      const escapeRegex = /\\==/g;
-      const highlightRegex = /==(?<text>[^=]+)==/g;
-      const codeBlockRegex = /<pre><code[^>]*>[\s\S]*?<\/code><\/pre>/g;
-      // 首先移除代码块，避免代码块的内容被替换
-      let codeBlocks = [];
-      let replacedHtml = html.replace(codeBlockRegex, (match) => {
+      const highlightRegex = /==/g;
+      const codeBlockRegex = /```[\s\S]*?```/g;
+
+      // 移除代码块
+      const codeBlocks = [];
+      const htmlNoCodeBlock = html.replace(codeBlockRegex, (match) => {
         codeBlocks.push(match);
-        return `CODE_BLOCK_${codeBlocks.length - 1}_END`; // 替换为占位符
+        return "CODE_BLOCK_PLACEHOLDER";
       });
-      // 移除\==，替换为占位符
-      replacedHtml = replacedhtml.replace(escapeRegex,(match)=>{
-        return `ESCAPE_BLOCK`;
-      });
+      console.log(codeBlocks);
+      console.log(html);
+
       // 高亮逻辑
-      const newHtml = replacedHtml.replace(highlightRegex, (match, text) => {
-        return `<mark>${text}</mark>`; // 进行高亮
-      });
-      // 恢复代码块
-      let finalHtml = newHtml.replace(/CODE_BLOCK_(\d+)_END/g, (match, index) => {
-        return codeBlocks[parseInt(index)];
-      });
-      // 恢复转义==
-      finalHtml = newHtml.replace(/ESCAPE_BLOCK/g,(match,index)=>{
-        return `==`;
-      });
-      next(finalHtml);
+      let isOpen = true;
+      const htmlHighlighted = htmlNoCodeBlock.replace(
+        highlightRegex,
+        (_match, _text) => {
+          if (isOpen) {
+            isOpen = false;
+            return `<mark>`;
+          }
+          isOpen = true;
+          return `</mark>`;
+        }
+      );
+
+      // 还原代码块
+      let codeBlockIndex = 0;
+      const htmlCodeBlockResumed = htmlHighlighted.replace(
+        /CODE_BLOCK_PLACEHOLDER/g,
+        () => codeBlocks[codeBlockIndex++]
+      );
+
+      next(htmlCodeBlockResumed);
     });
-  }
+  };
 
   // Add the plugin to the window
   window.$docsify = window.$docsify || {}; // Ensure $docsify exists
