@@ -1,3 +1,5 @@
+![GTMC](https://socialify.git.ci/tanhHeng/GraduateTextsInTechnicalMC/image?description=1&forks=1&issues=1&pulls=1&stargazers=1&theme=Auto)
+
 # GraduateTextsInTechnicalMC
 
 这是一本面向萌新的技术红石入门教材，也是一本面向熟练者的文档。
@@ -16,7 +18,7 @@
 
 文档中采用的代码使用`1.20.1-yarn`反编译，若有特殊情况会以上标[^3]注明。
 
-文章中留有习题供读者自行联系，答案以 <hidden>这是答案，遮罩只有网页访问可用</hidden> 遮罩，鼠标悬浮在遮罩块上方即可显示。
+文章中留有习题供读者自行练习，答案以 <hidden>这是答案，遮罩只有网页访问可用</hidden> 遮罩，鼠标悬浮在遮罩块上方即可显示。
 
 文章中部分内容会被写作#00aaff{awa}、#color:green{qwq}或<color blue>blue</color>，在网页端上大括号内内容会被着色标注。
 
