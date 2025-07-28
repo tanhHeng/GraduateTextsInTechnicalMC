@@ -1,1 +1,11 @@
-.idea/workspace.xml
+.idea
+node_modules/
+dist/
+*.log
+.DS_Store
+Thumbs.db
+.env
+.cache/
+docs/.cache/
+docs/_book/
+TODO.md
