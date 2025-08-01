@@ -9,3 +9,4 @@ Thumbs.db
 docs/.cache/
 docs/_book/
 TODO.md
+.vscode/
