@@ -1,4 +1,5 @@
 - [引言](./)
+- [专用语解释](./SpecializedNoun/00-专有名词解释.md)
 - 更新理论
   - [#00 引言](./BlockUpdate/README.md)
   - [#01 更新概念与不同类型的更新](./BlockUpdate/01-更新概念与不同类型的更新.md)
@@ -11,7 +12,7 @@
   - [#03 计划刻与计划刻元件](./MicroTiming/03-计划刻与计划刻元件.md)
   - [#04 方块实体](./MicroTiming/04-方块实体.md)
   - [#05 方块事件](./MicroTiming/05-方块事件.md)
-
+  - [#06 布线与特性](./MicroTiming/06-元件与特性.md)
 - masamod教程
   - [#00 序](./Masamod/README.md)
   - [#01 Masa Gadget](./Masamod/01-MasaGadget.md)
