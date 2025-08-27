@@ -11,11 +11,15 @@
   - [#03 计划刻与计划刻元件](./MicroTiming/03-计划刻与计划刻元件.md)
   - [#04 方块实体](./MicroTiming/04-方块实体.md)
   - [#05 方块事件](./MicroTiming/05-方块事件.md)
+  - [#06 元件与特性](./MicroTiming/06-元件与特性.md)
 
 - masamod教程
   - [#00 序](./Masamod/README.md)
   - [#01 Masa Gadget](./Masamod/01-MasaGadget.md)
   - [#02 Litematica](./Masamod/02-litematica)
+
+- 附录
+  - [#00 专有名词解释](./Appendix/00-专有名词解释.md)
 
 ---
 
