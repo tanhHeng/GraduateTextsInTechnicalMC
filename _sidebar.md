@@ -18,8 +18,9 @@
   - [#01 Masa Gadget](./Masamod/01-MasaGadget.md)
   - [#02 Litematica](./Masamod/02-litematica)
 
-- 附录
+- 附录-专有名词解释
   - [#00 专有名词解释](./Appendix/00-专有名词解释.md)
+  - [#01 栈与调用栈](./Appendix/01-栈.md)
 
 ---
 
