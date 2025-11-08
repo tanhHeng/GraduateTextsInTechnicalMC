@@ -11,7 +11,9 @@
   - [#03 计划刻与计划刻元件](./MicroTiming/03-计划刻与计划刻元件.md)
   - [#04 方块实体](./MicroTiming/04-方块实体.md)
   - [#05 方块事件](./MicroTiming/05-方块事件.md)
-  - [#06 元件与特性](./MicroTiming/06-元件与特性.md)
+  <!-- - [#06 元件与特性](./MicroTiming/06-元件与特性.md) -->
+  - 元件与特性
+    - [#01 铁轨](./Appendix/02-铁轨.md)
 
 - masamod教程
   - [#00 序](./Masamod/README.md)
