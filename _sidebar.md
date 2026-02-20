@@ -18,6 +18,12 @@
   - [#01 Masa Gadget](./Masamod/01-MasaGadget.md)
   - [#02 Litematica](./Masamod/02-litematica)
 
+- 附录-专有名词解释
+  - [#00 专有名词解释](./Appendix/00-专有名词解释.md)
+  - [#01 栈与调用栈](./Appendix/01-栈.md)
+  <!-- - [#06 元件与特性](./MicroTiming/06-元件与特性.md) -->
+- 附录-元件与特性
+  - [#01 铁轨](./Components&Features/元件与特性/01-铁轨.md)
 ---
 
 - **械电**
@@ -33,8 +39,9 @@
   - [#07 [进阶]关于4gt树场的一切](./TreeFarm/07-[进阶]关于4gt树场的一切.md)
   - [#08 大云杉树场](./TreeFarm/08-大云杉树场.md)
   - [#09 [进阶]深色橡木树场](./TreeFarm/404.md)
-  - [#010 生炸树场](./TreeFarm/404.md)
-  - [#011 地狱菌场](./TreeFarm/404.md)
+  - [#10 生炸树场](./TreeFarm/404.md)
+  - [#11 地狱菌场](./TreeFarm/404.md)
+  - [#12 [进阶]树苗生长机制：催熟与树形](./TreeFarm/12-[进阶]树苗生长机制：树形与催熟.md)
   - [#??? 双核、三核、四核树场](./TreeFarm/404.md)
   
 ---
@@ -56,8 +63,8 @@
   - [#21 能动](SlimeTech/Twisuki/2/21.md)
   - [#22 半动机与拓展](SlimeTech/Twisuki/2/22.md)
   - [#23 计次](SlimeTech/Twisuki/2/23.md)
-  - [#30 组织](SlimeTech/Twisuki/404.md)
-  - [#31 连杆](SlimeTech/Twisuki/404.md)
+  - [#30 组织](SlimeTech/Twisuki/3/30.md)
+  - [#31 连杆](SlimeTech/Twisuki/3/31.md)
   - [#32 驳回与停靠](SlimeTech/Twisuki/404.md)
   - [#40 元件](SlimeTech/Twisuki/404.md)
   - [#41 调试](SlimeTech/Twisuki/404.md)
