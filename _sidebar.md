@@ -11,7 +11,7 @@
   - [#02 初窥刻内时序](./MicroTiming/02-初窥刻内时序.md)
   - [#03 计划刻与计划刻元件](./MicroTiming/03-计划刻与计划刻元件.md)
   - [#04 方块实体](./MicroTiming/04-方块实体.md)
-  - [#05 方块事件](./MicroTiming/05-方块事件(Remake).md)
+  - [#05 方块事件](./MicroTiming/05-方块事件.md)
   - [#06 元件与特性](./MicroTiming/06-元件与特性.md)
 - masamod教程
   - [#00 序](./Masamod/README.md)
@@ -23,7 +23,8 @@
   - [#01 栈与调用栈](./Appendix/01-栈.md)
   <!-- - [#06 元件与特性](./MicroTiming/06-元件与特性.md) -->
 - 附录-元件与特性
-  - [#01 铁轨](./Components&Features/元件与特性/01-铁轨.md)
+  - [#01 铁轨](./Components&Features/01-铁轨.md)
+  - [#02 活塞](./Components&Features/02-活塞.md)
 ---
 
 - **械电**
