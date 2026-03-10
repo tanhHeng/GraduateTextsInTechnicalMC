@@ -24,11 +24,11 @@
 
 可以来QQ裙吹水：1031431170
 
-## 开源协议与著作权声明
+## 许可协议与著作权声明
 
-文档全部基于[CC BY-NC-SA 4.0协议](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans)开源。Copyright © 2024 ABxl_lly, BFladderbean, Molforte, Ryan100c, tanh_Heng, Twisuki, xhbsh, yuhan2680. All Rights Reserved.
+本文档内容采用[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans)授权。Copyright © 2024 GTMC Team.
 
-Email: <tanh_heng@outlook.com>, <fannbryan@gmail.com>, <yuhan2680@qq.com>，<suyang233@hotmail.com>，<Molforte@outlook.com>
+联系邮箱: <tanh_heng@outlook.com>, <fannbryan@gmail.com>, <yuhan2680@qq.com>，<suyang233@hotmail.com>，<Molforte@outlook.com>
 
 - 作者 / ABxl_lly, BFladderbean, Molforte, Ryan100c, tanh_Heng, Twisuki, xhbsh , yuhan2680
 - 协作 / Petris, void, XJH_Jorhai
