@@ -34,7 +34,7 @@ Minecraft © Mojang AB / Microsoft Corporation. All Rights Reserved.
 
 本文档引用的游戏截图、纹理、源码等内容受著作权法保护，在符合[Minecraft EULA](https://www.minecraft.net/zh-hans/eula)和[Minecraft 使用准则](https://www.minecraft.net/zh-hans/usage-guidelines)的前提下进行有限引用。
 
-其中，本文档引用的源码来源于对Minecraft的反编译研究，使用了[Yarn映射表](https://github.com/FabricMC/yarn)进行可读化反编译。该映射表采用[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.zh-hans)授权。
+其中，本文档引用的源码来源于对Minecraft的反编译研究，使用了[Yarn映射表](https://github.com/FabricMC/yarn)进行可读化反编译，该映射表采用[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.zh-hans)授权。
 
 本文档不构成对Minecraft游戏代码的再分发或任何形式的商业使用，也不提供可直接运行的完整游戏代码或可执行文件。所有对游戏内部机制的描述均限于学习和说明目的。
 
@@ -46,6 +46,7 @@ GTMC Wiki Team:
 - 鸣谢 / Graduate texts in technical MC, Fallen_Breath, 五羊飞kaniol
 
 **本文档并非Minecraft官方文档，与Mojang和微软亦无从属关系。**
+
 **Not an official Minecraft document. We are not associated with Mojang or Microsoft.**
 
 [^1]: 像这样
