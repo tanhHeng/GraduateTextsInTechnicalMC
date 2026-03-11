@@ -24,28 +24,30 @@
 
 可以来QQ裙吹水：1031431170
 
-## 开源协议与著作权声明
+## 著作权声明与授权信息
 
-文档全部基于[CC BY-NC-SA 4.0协议](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans)开源。Copyright © 2024 ABxl_lly, BFladderbean, Molforte, Ryan100c, tanh_Heng, Twisuki, xhbsh, yuhan2680. All Rights Reserved.
+Copyright © 2024 GTMC Wiki.
+本文档原创内容采用[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)授权。
 
-Email: <tanh_heng@outlook.com>, <fannbryan@gmail.com>, <yuhan2680@qq.com>，<suyang233@hotmail.com>，<Molforte@outlook.com>
+Minecraft® 是 Mojang AB 的注册商标。
+Minecraft © Mojang AB / Microsoft Corporation. All Rights Reserved.
 
+本文档引用的游戏截图、纹理、源码等内容受著作权法保护，在符合[Minecraft EULA](https://www.minecraft.net/zh-hans/eula)和[Minecraft 使用准则](https://www.minecraft.net/zh-hans/usage-guidelines)的前提下进行有限引用。
+
+其中，本文档引用的源码来源于对Minecraft的反编译研究，使用了[Yarn映射表](https://github.com/FabricMC/yarn)进行可读化反编译，该映射表采用[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.zh-hans)授权。
+
+本文档不构成对Minecraft游戏代码的再分发或任何形式的商业使用，也不提供可直接运行的完整游戏代码或可执行文件。所有对游戏内部机制的描述均限于学习和说明目的。
+
+联系邮箱: <tanh_heng@outlook.com>, <fannbryan@gmail.com>, <yuhan2680@qq.com>，<suyang233@hotmail.com>，<Molforte@outlook.com>
+
+GTMC Wiki Team:
 - 作者 / ABxl_lly, BFladderbean, Molforte, Ryan100c, tanh_Heng, Twisuki, xhbsh , yuhan2680
 - 协作 / Petris, void, XJH_Jorhai
 - 鸣谢 / Graduate texts in technical MC, Fallen_Breath, 五羊飞kaniol
 
-## EULA声明
+**本文档并非Minecraft官方文档，与Mojang和微软亦无从属关系。**
 
-我们严格遵守[Minecraft EULA](https://www.minecraft.net/en-us/eula)协议：
-```
-However, you must not distribute anything we've made unless we specifically agree to it. By "distribute anything we've made" what we mean is:
-
-give copies of our game software or content to anyone else;
-make commercial use of anything we've made;
-try to make money from anything we've made; or
-let other people get access to anything we've made in a way that is unfair or unreasonable.
-```
-本文档中所有引用的代码均只作学习作用，无任何商业用途或试图损害Microsoft或Mojang利益的目的。
+**Not an official Minecraft document. We are not associated with Mojang or Microsoft.**
 
 [^1]: 像这样
 [^2]: 像像这这样样
